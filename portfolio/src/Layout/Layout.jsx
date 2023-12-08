@@ -4,25 +4,21 @@ const Layout = () => {
   const location = useLocation();
 
   return (
-    <div className="Layout">
-      <nav>
-        <ul>
-          {location.pathname !== "/" && (
-            <li>
-              <Link to="/">Home</Link>
+    <div>
+      <nav className="navbar navbar-expand">
+        <div className="container">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a href="/" className="nav-link active">Home</a>
             </li>
-          )}
-          {location.pathname !== "/about-me" && (
-            <li>
-              <Link to="/about-me">About Me</Link>
+            <li className="nav-item">
+              <a href="/about-me" className="nav-link active">About me</a>
             </li>
-          )}
-          {location.pathname !== "/contact" && (
-            <li>
-              <Link to="/contact">Contact</Link>
+            <li className="nav-item">
+              <a href="/contact" className="nav-link active">Contact</a>
             </li>
-          )}
-        </ul>
+          </ul>
+        </div>
       </nav>
       <Outlet/>
     </div>

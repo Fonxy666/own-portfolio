@@ -3,7 +3,7 @@ import React from "react";
 const AboutMe = () => {
 
   return (
-    <div>
+    <div className="container">
       <p>
         My name is Viktor Poszt, and I'm 29 years old. Currently, I live in Szeged with my girlfriend.
       </p>
