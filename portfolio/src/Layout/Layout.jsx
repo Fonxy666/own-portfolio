@@ -1,26 +1,28 @@
-import { Outlet, useLocation } from "react-router-dom";
-
+import { Link, scroller } from "react-scroll";
 const Layout = () => {
-  const location = useLocation();
+  const scrollTo = (id) => {
+    scroller.scrollTo(id, {
+      smooth: true,
+      duration: 10,
+      offset: -90,
+    });
+  }
 
   return (
     <div>
       <nav className="navbar navbar-expand">
-        <div className="container">
           <ul className="navbar-nav">
-            <li className="nav-item">
-              <a href="/" className="nav-link active">Home</a>
+            <li className="nav-tem">
+              <Link onClick={() => scrollTo("0")} to="0" activeClass="active" className="nav-link text-white">About Me</Link>
             </li>
             <li className="nav-item">
-              <a href="/about-me" className="nav-link active">About me</a>
+              <Link onClick={() => scrollTo("1")} to="1" className="nav-link text-white">Recent Projects</Link>
             </li>
             <li className="nav-item">
-              <a href="/contact" className="nav-link active">Contact</a>
+              <Link onClick={() => scrollTo("2")} to="2" className="nav-link text-white">Contact Me</Link>
             </li>
           </ul>
-        </div>
       </nav>
-      <Outlet/>
     </div>
   );
 };

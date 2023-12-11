@@ -1,6 +1,5 @@
 import React from "react";
-import { TextContainer } from "../../Styles/HomePage.Styled";
-import Layout from "../../Layout/Layout";
+import { HomeContainer, SectionContainer, Title, Section, Content, Nav, Footer } from "../../Styles/HomePage.Styled";
 import AboutMe from "../AboutMe";
 import Contact from "../Contact";
 import RecentProjects from "../RecentProjects";
@@ -8,24 +7,38 @@ import RecentProjects from "../RecentProjects";
 const HomePage = () => {
 
   return (
-    <div className="container">
-      <nav className="navbar navbar-dark bg-dark fixed-top">
-        <Layout/>
-      </nav>
+    <HomeContainer>
+      <SectionContainer>
+        <Section id="0">
+          <Title>
+            About Me
+          </Title>
+          <Content>
+            <AboutMe/>
+          </Content>
+        </Section>
+        <Section id="1">
+          <Title>
+            Recent Projects
+          </Title>
+          <Content>
+            <RecentProjects/>
+          </Content>
+        </Section>
+        <Section id="2">
+          <Title>
+            Contact Me
+          </Title>
+          <Content>
+            <Contact/>
+          </Content>
+        </Section>
+      </SectionContainer>
 
-      <TextContainer>
-        <div>
-          <AboutMe/>
-        </div>
-        <div>
-          <RecentProjects/>
-        </div>
-        <div>
-          <Contact/>
-        </div>
-      </TextContainer>
-
-    </div>
+      <Footer>
+        
+      </Footer>
+    </HomeContainer>
   );
 };
 

@@ -2,8 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
+import { Nav } from "./Styles/HomePage.Styled";
+import Layout from "./Layout";
 
-import Layout from "./Layout/Layout";
 import HomePage from "./Components/HomePage";
 
 const App = () => {
@@ -17,9 +18,12 @@ const App = () => {
 
   return (
     <React.StrictMode>
-      <RouterProvider router={router}>
-        <Layout />
-      </RouterProvider>
+      <Nav className="fixed-top">
+        <Layout/>
+      </Nav>
+      <div style={{background: "#f5f4e9", position: "relative", top: "90px"}}>
+        <RouterProvider router={router}/>
+      </div>
     </React.StrictMode>
   );
 };
