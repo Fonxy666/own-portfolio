@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-export const HomeContainer = styled.div`
-
-`
-
 export const SectionContainer = styled.div`
   margin: auto;
   width: 60vw;
@@ -43,9 +39,9 @@ export const Nav = styled.nav`
   font-variant: small-caps;
   font-size: 25px;
   padding: 10px;
-`
+`;
 
 export const Footer = styled.footer`
   padding: 30px 0px 30px 0px;
   background-color: grey;
-`
+`;

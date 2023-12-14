@@ -27,3 +27,11 @@ export const ImageLinkContainer = styled.div`
   text-align: center;
   left: 0px;
 `;
+
+export const Picture = styled.img`
+  margin-left: 200px;
+  width: 200px;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: black;
+`;
