@@ -29,9 +29,16 @@ export const ImageLinkContainer = styled.div`
 `;
 
 export const Picture = styled.img`
-  margin-left: 200px;
-  width: 200px;
-  border-radius: 5%;
-  border-style: solid;
-  border-color: black;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid white;
 `;
+
+export const PictureContainer = styled.div`
+  width: fit-content;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+`

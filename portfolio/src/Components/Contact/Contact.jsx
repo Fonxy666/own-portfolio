@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { InputButton } from "../../Styles/Contact.Styled";
 
 const Contact = () => {
   const form = useRef();
@@ -29,7 +30,7 @@ const Contact = () => {
         <div>
           <label className="form-label">Message</label>
           <textarea type="message" id="message" className="form-control" name="message" />
-          <input type="submit" value="Send" className="submit"/>
+          <InputButton className="btn btn-secondary" type="submit" value="Send" style={{marginTop: "15px"}}/>
         </div>
       </form>
     </div>
