@@ -2,6 +2,6 @@ import styled from "styled-components";
 
 export const RouterDiv = styled.div`
   position: relative;
-  top: 90px;
-  background: linear-gradient(to bottom, white 0%, #B5AFA6 50%, white 100%);
+  padding-top: 90px;
+  background: linear-gradient(to bottom, grey 5%, white 40%, white 60%, grey 100%);
 `;

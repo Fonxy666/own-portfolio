@@ -23,7 +23,7 @@ export const ImageLink = styled.a`
   
 export const ImageLinkContainer = styled.div`
   width: 100%;
-  opacity: 0.5;
+  background-color: rgba(128, 128, 128, 0.75) !important;
   text-align: center;
   left: 0px;
 `;
@@ -39,6 +39,6 @@ export const Picture = styled.img`
 export const PictureContainer = styled.div`
   width: fit-content;
   margin: auto;
-  width: 50%;
+  width: 25%;
   padding: 10px;
 `

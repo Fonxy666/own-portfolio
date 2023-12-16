@@ -1,6 +1,4 @@
 import React from "react";
-import ownPicturePng from "../../Images/ownPicturePng.png"
-import { Picture, PictureContainer } from "../../Styles/Image.Styled";
 import { AboutMeContainer } from "../../Styles/AboutMe.Styled";
 import cv from "../../Cv/VPCV.pdf";
 
@@ -25,9 +23,6 @@ const AboutMe = () => {
 
   return (
     <div className="container"  style={{textAlign: "justify"}}>
-      <PictureContainer>
-        <Picture src={ownPicturePng} alt="Portfolio picture"/>
-      </PictureContainer>
       <h5>
         Introduction:
       </h5>

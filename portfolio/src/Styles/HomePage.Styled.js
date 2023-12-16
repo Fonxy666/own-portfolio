@@ -7,13 +7,11 @@ export const SectionContainer = styled.div`
 
 export const Section = styled.div`
   border-radius: 10px;
-  background-color: #f5f4e9;
   width: 100%;
   object-position: center;
 `;
 
 export const Title = styled.div` 
-  border: 2px solid black;
   background-color: grey;
   text-align: center;
   color: white;
@@ -33,8 +31,11 @@ export const Content = styled.div`
 `;
 
 export const Nav = styled.nav`
-  border-bottom: solid black 2px;
-  background-color: #B5AFA6;
+  height: 90px;
+  margin: 10px;
+  background-color: rgba(128, 128, 128, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
   text-align: center;
   color: white !important;
   font-weight: bold;
@@ -48,11 +49,11 @@ export const Footer = styled.footer`
   background-color: grey;
 `;
 
-export const ContentForImage = styled.div`
+export const ContentForAboutMe = styled.div`
   padding: 90px;
   width: 100%;
   object-position: center;
   border-radius: 10px;
   background-color: white;
-  background: linear-gradient(to bottom, #B5AFA6 20%, white 50px);
+  background: linear-gradient(to bottom, grey 20%, white 50px);
 `;

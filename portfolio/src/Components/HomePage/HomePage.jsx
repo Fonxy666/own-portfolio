@@ -1,21 +1,26 @@
 import React from "react";
-import { SectionContainer, Title, Section, Content, ContentForImage } from "../../Styles/HomePage.Styled";
+import { SectionContainer, Title, Section, Content } from "../../Styles/HomePage.Styled";
+import { Picture, PictureContainer } from "../../Styles/Image.Styled";
 import AboutMe from "../AboutMe";
 import Contact from "../Contact";
 import RecentProjects from "../RecentProjects";
+import ownPicturePng from "../../Images/ownPicturePng.png"
 
 const HomePage = () => {
 
   return (
     <div>
       <SectionContainer>
-        <Section id="0">
-          <Title>
+        <Section>
+          <PictureContainer>
+            <Picture src={ownPicturePng} alt="Portfolio picture"/>
+          </PictureContainer>
+          <Title id="0">
             About Me
           </Title>
-          <ContentForImage>
+          <Content>
             <AboutMe/>
-          </ContentForImage>
+          </Content>
         </Section>
         <Section id="1">
           <Title>
@@ -36,7 +41,7 @@ const HomePage = () => {
       </SectionContainer>
 
       <footer className="text-center bg-body-tertiary">
-        <div className="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}>
+        <div className="text-center p-3" style={{backgroundColor: "rgb(45, 45, 45)", color: "white"}}>
           © 2023 Copyright: Viktor Poszt
         </div>
       </footer>
