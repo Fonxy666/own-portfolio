@@ -9,6 +9,7 @@ export const ImageContainer = styled.div`
 export const Image = styled.img`
   width: 100%;
   object-position: center;
+  border-radius: 50% !important;
 `;
 
 export const CarouselContainer = styled.div`

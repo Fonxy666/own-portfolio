@@ -59,16 +59,16 @@ const AboutMe = () => {
       </p>
       <section className="mb-4">
         <a href="https://www.linkedin.com/in/viktor-poszt/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" className="bi bi-linkedin" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="grey" className="bi bi-linkedin" viewBox="0 0 16 16">
             <path d={linkedInPath}/>
           </svg>
         </a>
         <a href="https://github.com/Fonxy666" target="_blank" rel="noopener noreferrer"  style={{marginLeft: "10px"}}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" className="bi bi-github" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="grey" className="bi bi-github" viewBox="0 0 16 16">
             <path d={gitHubPath}/>
           </svg>
         </a>
-        <button onClick={handleDownload} width="30" height="30"type="button" className="btn btn-secondary" style={{backgroundColor: "black", marginLeft: "10px"}}>
+        <button onClick={handleDownload} width="30" height="30"type="button" className="btn btn-secondary" style={{backgroundColor: "grey", marginLeft: "10px"}}>
           Download CV
         </button>
       </section>
