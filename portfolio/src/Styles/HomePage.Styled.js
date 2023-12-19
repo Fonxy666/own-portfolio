@@ -1,8 +1,17 @@
 import styled from "styled-components";
+import { devices } from "../Styles/Breakpoints.Styled";
 
 export const SectionContainer = styled.div`
   margin: auto;
-  width: 60vw;
+  width: 60%;
+  @media only screen and (${devices.md}) {
+    margin: 0px !important;
+    width: 100% !important;
+  }
+  @media only screen and (${devices.lg}) {
+    margin: auto;
+    width: 70%;
+  }
 `;
 
 export const Section = styled.div`
@@ -20,6 +29,10 @@ export const Title = styled.div`
   font-size: 25px;
   padding: 10px;
   border-radius: 10px;
+  @media only screen and (${devices.xs}) {
+    text-align: left;
+    font-size: 20px;
+  }
 `;
 
 export const Content = styled.div`
@@ -28,6 +41,9 @@ export const Content = styled.div`
   object-position: center;
   border-radius: 10px;
   background-color: white;
+  @media only screen and (${devices.xs}) {
+    padding: 10px;
+  }
 `;
 
 export const Nav = styled.nav`
@@ -49,11 +65,13 @@ export const Footer = styled.footer`
   background-color: grey;
 `;
 
-export const ContentForAboutMe = styled.div`
-  padding: 90px;
-  width: 100%;
-  object-position: center;
-  border-radius: 10px;
-  background-color: white;
-  background: linear-gradient(to bottom, grey 20%, white 50px);
+export const StyledUl = styled.ul`
+  @media only screen and (max-width: 991px) {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 30%;
+    float: right;
+    backdrop-filter: blur(2600px);
+    border-radius: 25px;
+    font-size: 15px;
+  };
 `;
