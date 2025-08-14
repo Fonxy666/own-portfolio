@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/own-portfolio/static/js/main.a2f404dd.js",
+    "main.js": "/own-portfolio/static/js/main.e6da80af.js",
     "static/js/787.7da95b79.chunk.js": "/own-portfolio/static/js/787.7da95b79.chunk.js",
-    "static/media/VPCV.pdf": "/own-portfolio/static/media/VPCV.964a8ee1b539856664fa.pdf",
     "static/media/ownPicturePng.png": "/own-portfolio/static/media/ownPicturePng.502246c6fcecbe864d02.png",
+    "static/media/Poszt_Viktor_CV.pdf": "/own-portfolio/static/media/Poszt_Viktor_CV.902439b00adcffadfdbd.pdf",
     "static/media/employee_table.jpg": "/own-portfolio/static/media/employee_table.2bfc173ed8b81f334824.jpg",
     "static/media/construct.jpg": "/own-portfolio/static/media/construct.07bedd61a2d4d81accb7.jpg",
     "static/media/solarwatch.jpg": "/own-portfolio/static/media/solarwatch.7111f915101abaafae65.jpg",
     "index.html": "/own-portfolio/index.html",
-    "main.a2f404dd.js.map": "/own-portfolio/static/js/main.a2f404dd.js.map",
+    "main.e6da80af.js.map": "/own-portfolio/static/js/main.e6da80af.js.map",
     "787.7da95b79.chunk.js.map": "/own-portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a2f404dd.js"
+    "static/js/main.e6da80af.js"
   ]
 }

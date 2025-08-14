@@ -1,19 +1,31 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { useRef, useState } from 'react';
 import { InputButton } from "../../Styles/Contact.Styled";
 
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_wcrwr6s', 'template_rfl8dro', form.current, 'UVQrOPr-xEZskSJps')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
+    const formData = new FormData(form.current);
+
+    try {
+      const response = await fetch("https://formspree.io/f/xovlbewp", {
+        method: "POST",
+        body: formData,
+        headers: { 'Accept': 'application/json' },
       });
+
+      if (response.ok) {
+        alert("Message snet successfully!")
+        form.current.reset();
+      } else {
+        alert("Failed to send message.");
+      }
+    } catch (error) {
+        alert("Failed to send message.");
+      console.error(error);
+    }
   };
 
   return (
@@ -21,16 +33,16 @@ const Contact = () => {
       <form ref={form} onSubmit={sendEmail}>
         <div>
           <label className="form-label">Name</label>
-          <input placeholder="John Doe" type="name" id="name" className="form-control" name="user_name" />
+          <input placeholder="John Doe" type="text" className="form-control" name="name" required />
         </div>
         <div>
-        <label className="form-label">E-mail</label>
-          <input placeholder="example@example.com" type="email" id="email" className="form-control" name="user_email" />
+          <label className="form-label">E-mail</label>
+          <input placeholder="example@example.com" type="email" className="form-control" name="email" required />
         </div>
         <div>
           <label className="form-label">Message</label>
-          <textarea type="message" id="message" className="form-control" name="message" />
-          <InputButton className="btn btn-secondary" type="submit" value="Send" style={{marginTop: "15px"}}/>
+          <textarea className="form-control" name="message" required />
+          <InputButton className="btn btn-secondary" type="submit" value="Send" style={{ marginTop: "15px" }} />
         </div>
       </form>
     </div>

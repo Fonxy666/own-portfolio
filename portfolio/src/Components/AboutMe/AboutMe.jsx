@@ -1,6 +1,5 @@
-import React from "react";
 import { AboutMeContainer } from "../../Styles/AboutMe.Styled";
-import cv from "../../Cv/VPCV.pdf";
+import cv from "../../Cv/Poszt_Viktor_CV.pdf";
 
 const AboutMe = () => {
   const linkedInPath = "M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4";
@@ -27,23 +26,28 @@ const AboutMe = () => {
         Introduction:
       </h5>
       <p>
-        My name is Viktor Poszt, and I'm 29 years old. Currently, I live in Szeged with my girlfriend.
+        My name is Viktor Poszt, I'm 30, and I currently live in Kirchbichl, Austria.
       </p>
       <p>
-        In my childhood, I spent most of my time playing computer games. I was always amazed by how it's possible to move a character with arrows, navigate the computer with a mouse,
-        create applications that can make people's lives easier and programming also allows us to develop robots that can assist doctors in healthcare.
+        From a young age, I was fascinated by computers - how software can solve problems, create applications, and even assist in healthcare through robotics.
       </p>
       <p>
-        Wanting more for myself, I revisited my childhood dream of becoming a programmer.
-        After discussions with my developer friend, who recognized my open-minded and agile mindset, I decided to enroll in the Codecool full-stack developer course online in February 2023.
+        Determined to pursue this passion, I revisited my childhood dream of becoming a programmer.
       </p>
       <p>
-        I consider myself to be a funny, communicative, open-minded, agile person, though I can be somewhat shy. When it comes to hobbies, I make it a point to engage in daily exercises to stay active.
-        Additionally, my love for gaming is still very much alive!
+        After discussions with a developer friend who recognized my open-minded and agile mindset, I enrolled in the Codecool Full-Stack Developer course online in February 2023.
       </p>
       <p>
-        In codecool i learnt several languages, that you can see below. I learned how to develop in a team, how to be passionate in programming, and how to be a good team player.
-        I developed several projects in a team, and in my own as well. 
+        I am communicative, open-minded, and agile, and I stay active through daily exercise.
+      </p>
+      <p>
+        While I enjoy gaming, I spend most of my time learning new frameworks and exploring programming concepts to grow as a developer.
+      </p>
+      <p>
+        At Codecool, I learned multiple programming languages and best practices for teamwork and development. I built several projects both independently and in teams.
+      </p>
+      <p>
+         My proudest project is my full-featured chat application, which demonstrates my ability to implement complex functionality and maintain clean code.
       </p>
       <h5>
         Some of the developers opinion:
@@ -81,10 +85,11 @@ const AboutMe = () => {
           </h2>
           <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
             <div className="accordion-body">
-              <li>CSS</li>
-              <li>HTML</li>
-              <li>Javascript</li>
-              <li>Angular</li>
+              <li>HTML/CSS: ★★★★☆</li>
+              <li>Javascript: ★★★★★</li>
+              <li>Angular: ★★★★☆</li>
+              <li>React: ★★★☆☆</li>
+              <li>TypeScript: ★★★★★</li>
             </div>
           </div>
         </div>
@@ -96,8 +101,12 @@ const AboutMe = () => {
           </h2>
           <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
             <div className="accordion-body">
-              <li>Express.Js</li>
-              <li>C#</li>
+              <li>Node.js: ★★★★☆</li>
+              <li>Express.Js: ★★★★☆</li>
+              <li>C#: ★★★★★</li>
+              <li>.NET: ★★★★★</li>
+              <li>REST API: ★★★★★</li>
+              <li>WebSocket/SignalR: ★★★★☆</li>
             </div>
           </div>
         </div>
@@ -109,9 +118,40 @@ const AboutMe = () => {
           </h2>
           <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
             <div className="accordion-body">
-              <li>MongoDB</li>
-              <li>PostgreSQL</li>
-              <li>MSSQL</li>
+              <li>MongoDB: ★★★☆☆</li>
+              <li>PostgreSQL: ★★★★☆</li>
+              <li>MSSQL: ★★★★☆</li>
+              <li>MySQL: ★★★☆☆</li>
+              <li>DB optimization: ★★★☆☆</li>
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="panelsStayOpen-headingFour">
+            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+              DevOps/ Deployment
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+            <div className="accordion-body">
+              <li>Docker: ★★★★☆</li>
+              <li>CI/CD: ★★★☆☆</li>
+              <li>Github Actions: ★★★☆☆</li>
+              <li>AWS: ★★☆☆☆</li>
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="panelsStayOpen-headingFive">
+            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+              Tools/ Other
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFive" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+            <div className="accordion-body">
+              <li>Git: ★★★★★</li>
+              <li>Testing(xUnit, nUnit): ★★★★☆</li>
+              <li>Agile: ★★★★☆</li>
             </div>
           </div>
         </div>
