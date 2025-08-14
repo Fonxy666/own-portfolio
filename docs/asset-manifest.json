@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/own-portfolio/static/js/main.8a266e51.js",
-    "static/js/787.7da95b79.chunk.js": "/own-portfolio/static/js/787.7da95b79.chunk.js",
-    "static/media/ownPicturePng.png": "/own-portfolio/static/media/ownPicturePng.5f2da2e4f87a744f643a.png",
-    "static/media/textinger.jpg": "/own-portfolio/static/media/textinger.59b654633796546430fa.jpg",
-    "static/media/Poszt_Viktor_CV.pdf": "/own-portfolio/static/media/Poszt_Viktor_CV.902439b00adcffadfdbd.pdf",
-    "static/media/flappy_bird.jpg": "/own-portfolio/static/media/flappy_bird.ab79b36409d71e88d129.jpg",
-    "index.html": "/own-portfolio/index.html",
-    "main.8a266e51.js.map": "/own-portfolio/static/js/main.8a266e51.js.map",
-    "787.7da95b79.chunk.js.map": "/own-portfolio/static/js/787.7da95b79.chunk.js.map"
+    "main.js": "./static/js/main.adf5840c.js",
+    "static/js/787.7da95b79.chunk.js": "./static/js/787.7da95b79.chunk.js",
+    "static/media/ownPicturePng.png": "./static/media/ownPicturePng.5f2da2e4f87a744f643a.png",
+    "static/media/textinger.jpg": "./static/media/textinger.59b654633796546430fa.jpg",
+    "static/media/Poszt_Viktor_CV.pdf": "./static/media/Poszt_Viktor_CV.902439b00adcffadfdbd.pdf",
+    "static/media/flappy_bird.jpg": "./static/media/flappy_bird.ab79b36409d71e88d129.jpg",
+    "index.html": "./index.html",
+    "main.adf5840c.js.map": "./static/js/main.adf5840c.js.map",
+    "787.7da95b79.chunk.js.map": "./static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8a266e51.js"
+    "static/js/main.adf5840c.js"
   ]
 }
