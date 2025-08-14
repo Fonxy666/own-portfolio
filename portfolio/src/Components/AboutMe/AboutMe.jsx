@@ -1,6 +1,6 @@
 import { AboutMeContainer } from "../../Styles/AboutMe.Styled";
 import cv from "../../Cv/Poszt_Viktor_CV.pdf";
-import { H5, GreenP, StyledButton, OpinionsP, IconLink } from "../../Styles/HomePage.Styled";
+import { H5, GreenP, StyledButton, OpinionsP, IconLink, StyledAccordionItem  } from "../../Styles/HomePage.Styled";
 
 const AboutMe = () => {
     const linkedInPath = "M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4";
@@ -78,7 +78,7 @@ const AboutMe = () => {
                 </StyledButton>
             </section>
             <AboutMeContainer className="accordion" id="accordionPanelsStayOpenExample">
-                <div className="accordion-item">
+                <StyledAccordionItem  className="accordion-item">
                     <h2 className="accordion-header" id="panelsStayOpen-headingOne">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
                             Frontend languages
@@ -93,8 +93,8 @@ const AboutMe = () => {
                             <li>TypeScript: ★★★★★</li>
                         </div>
                     </div>
-                </div>
-                <div className="accordion-item">
+                </StyledAccordionItem>
+                <StyledAccordionItem className="accordion-item">
                     <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                             Backend languages
@@ -107,11 +107,12 @@ const AboutMe = () => {
                             <li>C#: ★★★★★</li>
                             <li>.NET: ★★★★★</li>
                             <li>REST API: ★★★★★</li>
+                            <li>Python: ★★☆☆☆</li>
                             <li>WebSocket/SignalR: ★★★★☆</li>
                         </div>
                     </div>
-                </div>
-                <div className="accordion-item">
+                </StyledAccordionItem>
+                <StyledAccordionItem className="accordion-item">
                     <h2 className="accordion-header" id="panelsStayOpen-headingThree">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                             Database languages
@@ -126,8 +127,8 @@ const AboutMe = () => {
                             <li>DB optimization: ★★★☆☆</li>
                         </div>
                     </div>
-                </div>
-                <div className="accordion-item">
+                </StyledAccordionItem>
+                <StyledAccordionItem className="accordion-item">
                     <h2 className="accordion-header" id="panelsStayOpen-headingFour">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
                             DevOps/ Deployment
@@ -141,8 +142,8 @@ const AboutMe = () => {
                             <li>AWS: ★★☆☆☆</li>
                         </div>
                     </div>
-                </div>
-                <div className="accordion-item">
+                </StyledAccordionItem>
+                <StyledAccordionItem className="accordion-item">
                     <h2 className="accordion-header" id="panelsStayOpen-headingFive">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
                             Tools/ Other
@@ -155,7 +156,7 @@ const AboutMe = () => {
                             <li>Agile: ★★★★☆</li>
                         </div>
                     </div>
-                </div>
+                </StyledAccordionItem>
             </AboutMeContainer>
         </div>
     );

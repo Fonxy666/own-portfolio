@@ -55,6 +55,35 @@ export const StyledButton = styled.button`
     }
 `;
 
+export const StyledAccordionItem = styled.div`
+    .accordion-button {
+        background-color: rgba(0, 100, 50, 0.9);
+        color: #fff;
+        font-weight: bold;
+
+        &:hover,
+        &:focus {
+            background-color: rgba(0, 150, 70, 1);
+            color: white;
+            box-shadow: none;
+        }
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: rgba(0, 150, 70, 1);
+        color: rgba(0, 100, 50, 1);
+    }
+
+    .accordion-body {
+        background-color: rgba(0, 150, 70, 1);
+        color: white;
+    }
+
+    .accordion-button::after {
+        filter: invert(1);
+    }
+`;
+
 export const IconLink = styled.a`
     display: inline-block;
     width: 40px;
@@ -92,6 +121,10 @@ export const OpinionsP = styled.p`
         cursor: pointer;
     }
 `;
+
+export const AccordionBackGround = styled.div`
+    background-color:  rgba(51, 51, 51, 0.5);
+`
 
 export const Content = styled.div`
     padding: 90px;
