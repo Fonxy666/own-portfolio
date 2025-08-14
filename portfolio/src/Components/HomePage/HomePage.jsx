@@ -41,7 +41,7 @@ const HomePage = () => {
       </SectionContainer>
       <footer className="text-center bg-body-tertiary">
         <div className="text-center p-3" style={{backgroundColor: "rgb(45, 45, 45)", color: "white"}}>
-          © 2023 Copyright: Viktor Poszt
+          © 2024 Copyright: Viktor Poszt
         </div>
       </footer>
     </div>

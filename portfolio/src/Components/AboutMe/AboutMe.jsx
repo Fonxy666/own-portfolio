@@ -84,7 +84,7 @@ const AboutMe = () => {
               <li>CSS</li>
               <li>HTML</li>
               <li>Javascript</li>
-              <li>Razor Pages</li>
+              <li>Angular</li>
             </div>
           </div>
         </div>

@@ -1,17 +1,12 @@
 import styled from "styled-components";
-import { devices } from "../Styles/Breakpoints.Styled";
 
 export const SectionContainer = styled.div`
   margin: auto;
   width: 60%;
-  @media only screen and (${devices.md}) {
+  @media only screen and (max-width: 1200px) {
     margin: 0px !important;
     width: 100% !important;
-  }
-  @media only screen and (${devices.lg}) {
-    margin: auto;
-    width: 70%;
-  }
+  };
 `;
 
 export const Section = styled.div`
@@ -29,10 +24,10 @@ export const Title = styled.div`
   font-size: 25px;
   padding: 10px;
   border-radius: 10px;
-  @media only screen and (${devices.xs}) {
+  @media only screen and (max-width: 480px) {
     text-align: left;
     font-size: 20px;
-  }
+  };
 `;
 
 export const Content = styled.div`
@@ -41,9 +36,9 @@ export const Content = styled.div`
   object-position: center;
   border-radius: 10px;
   background-color: white;
-  @media only screen and (${devices.xs}) {
+  @media only screen and (max-width: 480px) {
     padding: 10px;
-  }
+  };
 `;
 
 export const Nav = styled.nav`

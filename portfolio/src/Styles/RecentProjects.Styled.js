@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { devices } from "../Styles/Breakpoints.Styled";
 
 export const ProjectContainer = styled.div`
   width: 45vw;
@@ -11,10 +10,10 @@ export const CarouselContainer = styled.div`
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     width: 80vw !important;
   };
-  @media only screen and (min-width: 480px) and (max-width: 1200px) {
+  @media only screen and (min-width: 480px) and (max-width: 960px) {
     width: 65vw;
   };
-  @media only screen and (${devices.lg}) {
+  @media only screen and (max-width: 1200px) {
     width: 35vw;
   };
 `;
