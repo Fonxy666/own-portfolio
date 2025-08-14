@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/static/js/main.cff6daa4.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/VPCV.pdf": "/static/media/VPCV.964a8ee1b539856664fa.pdf",
+    "static/media/ownPicturePng.png": "/static/media/ownPicturePng.502246c6fcecbe864d02.png",
+    "static/media/employee_table.jpg": "/static/media/employee_table.2bfc173ed8b81f334824.jpg",
+    "static/media/construct.jpg": "/static/media/construct.07bedd61a2d4d81accb7.jpg",
+    "static/media/solarwatch.jpg": "/static/media/solarwatch.7111f915101abaafae65.jpg",
+    "index.html": "/index.html",
+    "main.cff6daa4.js.map": "/static/js/main.cff6daa4.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cff6daa4.js"
+  ]
+}
