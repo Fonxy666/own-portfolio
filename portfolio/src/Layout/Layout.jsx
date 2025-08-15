@@ -18,15 +18,15 @@ const Layout = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarContent">
-                    <StyledUl className="navbar-nav me-auto">
+                    <StyledUl className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <Link onClick={() => scrollTo("0")} to="0" activeClass="active" className="nav-link text-white">About Me</Link>
+                            <Link onClick={() => scrollTo("0")} style={{ cursor: "pointer" }} to="0" activeClass="active" className="nav-link text-white">About Me</Link>
                         </li>
                         <li className="nav-item">
-                            <Link onClick={() => scrollTo("1")} to="1" className="nav-link text-white">Recent Projects</Link>
+                            <Link onClick={() => scrollTo("1")} style={{ cursor: "pointer" }} to="1" className="nav-link text-white">Recent Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <Link onClick={() => scrollTo("2")} to="2" className="nav-link text-white">Contact Me</Link>
+                            <Link onClick={() => scrollTo("2")} style={{ cursor: "pointer" }} to="2" className="nav-link text-white">Contact Me</Link>
                         </li>
                     </StyledUl>
                 </div>

@@ -7,15 +7,15 @@ const RecentProjects = () => {
 
     return (
         <RecentProjectContainer>
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <div id="carouselExampleDark" className="carousel carousel-dark slide">
+                <div className="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 </div>
-                <div class="carousel-inner">
+                <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">
-                        <div class="container text-center">
-                            <div class="row">
+                        <div className="container text-center">
+                            <div className="row">
                                 <div>
                                     <H5>Textinger</H5>
                                     <GreenP>Textinger is a chat application built with .NET, Angular, PostgreSQL.</GreenP>
@@ -24,15 +24,15 @@ const RecentProjects = () => {
                                         <ImageLink href="https://github.com/Fonxy666/texting-application" target="_blank"> Textinger</ImageLink>
                                     </GreenP>
                                 </div>
-                                <div class="col">
+                                <div className="col">
                                     <Image src={TextingerImage} className="d-block" alt="..." />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <div class="container text-center">
-                            <div class="row">
+                    <div className="carousel-item" data-bs-interval="2000">
+                        <div className="container text-center">
+                            <div className="row">
                                 <div>
                                     <H5>Flappy Bird AI</H5>
                                     <GreenP>This is a Flappy Bird clone game, which also includes an AI mode.</GreenP>
@@ -41,20 +41,20 @@ const RecentProjects = () => {
                                         <ImageLink href="https://github.com/Fonxy666/FlappyBirdAi" target="_blank"> Flappy Bird</ImageLink>
                                     </GreenP>
                                 </div>
-                                <div class="col">
+                                <div className="col">
                                     <Image src={FlappyBirdImage} className="d-block" alt="..." />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
                 </button>
             </div>
         </RecentProjectContainer>

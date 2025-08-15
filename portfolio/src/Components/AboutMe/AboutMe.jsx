@@ -53,15 +53,21 @@ const AboutMe = () => {
             <H5>
                 Some of the developers opinion:
             </H5>
-            <OpinionsP>
-                "He has the ability to comprehend sophisticated concepts, and after understanding them he can quickly implement what he has learned in a live project.
-                By now he managed to build himself up in the field of IT to a level where he would make a great addition to any team as a Junior Developer." - Erik Rabóczki (Codecool mentor)
-            </OpinionsP>
-            <OpinionsP>
-                "He is a very agile, open-minded person, who can learn new programming languages and frameworks rapidly. During our collaboration on his pet project,
-                he demonstrated his ability to grasp sophisticated concepts and implement them efficiently. His hardworking mentality was evident when he successfully delivered high-quality code under tight deadlines.
-                These qualities make him a valuable asset to any development team." - Viktor Kocsis (Senior Salesforce Engineer)
-            </OpinionsP>
+            <GreenP>
+                <OpinionsP>
+                    "He has the ability to comprehend sophisticated concepts, and after understanding them he can quickly implement what he has learned in a live project.
+                    By now he managed to build himself up in the field of IT to a level where he would make a great addition to any team as a Junior Developer."
+                </OpinionsP>
+                - Erik Rabóczki (Codecool mentor)
+            </GreenP>
+            <GreenP>
+                <OpinionsP>
+                    "He is a very agile, open-minded person, who can learn new programming languages and frameworks rapidly. During our collaboration on his pet project,
+                    he demonstrated his ability to grasp sophisticated concepts and implement them efficiently. His hardworking mentality was evident when he successfully delivered high-quality code under tight deadlines.
+                    These qualities make him a valuable asset to any development team." 
+                </OpinionsP>
+                - Viktor Kocsis (Senior Salesforce Engineer)
+            </GreenP>
             <section className="mb-4">
                 <IconLink href="https://www.linkedin.com/in/viktor-poszt/" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -87,10 +93,10 @@ const AboutMe = () => {
                     <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                         <div className="accordion-body">
                             <li>HTML/CSS: ★★★★☆</li>
-                            <li>Javascript: ★★★★★</li>
+                            <li>Javascript: ★★★★☆</li>
                             <li>Angular: ★★★★☆</li>
                             <li>React: ★★★☆☆</li>
-                            <li>TypeScript: ★★★★★</li>
+                            <li>TypeScript: ★★★★☆</li>
                         </div>
                     </div>
                 </StyledAccordionItem>

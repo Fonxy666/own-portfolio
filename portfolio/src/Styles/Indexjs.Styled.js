@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyles = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+`;
+
 export const RouterDiv = styled.div`
     position: relative;
     padding-top: 90px;

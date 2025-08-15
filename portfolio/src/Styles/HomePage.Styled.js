@@ -111,7 +111,7 @@ export const GreenP = styled.p`
     color: rgba(0, 100, 50, 1);
 `;
 
-export const OpinionsP = styled.p`
+export const OpinionsP = styled.span`
     font-family: 'Dancing Script', cursive;
     color: rgba(0, 100, 50, 0.9);
     transition: color 0.3s ease;
@@ -138,7 +138,6 @@ export const Content = styled.div`
 `;
 
 export const Nav = styled.nav`
-    height: 90px;
     margin: 10px;
     background-color: rgba(51, 51, 51, 0.5);
     backdrop-filter: blur(10px);
@@ -158,11 +157,6 @@ export const Footer = styled.footer`
 
 export const StyledUl = styled.ul`
     @media only screen and (max-width: 991px) {
-        background-color: rgba(0, 0, 0, 0.7);
-        width: 30%;
-        float: right;
-        backdrop-filter: blur(2600px);
-        border-radius: 25px;
-        font-size: 15px;
+        font-size: 20px;
     };
 `;
