@@ -112,7 +112,7 @@ export const GreenP = styled.p`
 `;
 
 export const OpinionsP = styled.span`
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Patrick Hand', cursive;
     color: rgba(0, 100, 50, 0.9);
     transition: color 0.3s ease;
 
