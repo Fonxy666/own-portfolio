@@ -1,5 +1,4 @@
-import { useRef, useState } from 'react';
-import { InputButton } from "../../Styles/Contact.Styled";
+import { useRef } from 'react';
 import { StyledButton } from '../../Styles/HomePage.Styled';
 
 const Contact = () => {
