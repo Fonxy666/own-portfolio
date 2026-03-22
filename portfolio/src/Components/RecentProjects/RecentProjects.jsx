@@ -1,5 +1,6 @@
 import TextingerImage from "../../Images/textinger.jpg";
 import FlappyBirdImage from "../../Images/flappy_bird.jpg";
+import CSharpImage from "../../Images/csharp_img.jpg";
 import { Image, RecentProjectContainer, ImageLink } from "../../Styles/RecentProjects.Styled";
 import { H5, GreenP } from "../../Styles/HomePage.Styled";
 
@@ -11,6 +12,7 @@ const RecentProjects = () => {
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">
@@ -26,6 +28,23 @@ const RecentProjects = () => {
                                 </div>
                                 <div className="col">
                                     <Image src={TextingerImage} className="d-block" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="carousel-item" data-bs-interval="2000">
+                        <div className="container text-center">
+                            <div className="row">
+                                <div>
+                                    <H5>Mapper Library</H5>
+                                    <GreenP>This is a Mapper Library for .NET applications</GreenP>
+                                    <GreenP>I learnt a lot about delegates and expressions through this project.</GreenP>
+                                    <GreenP>Check it out on GitHub, or fork the repository to try it yourself:
+                                        <ImageLink href="https://github.com/Fonxy666/fast-mapper" target="_blank"> Fast Mapper</ImageLink>
+                                    </GreenP>
+                                </div>
+                                <div className="col">
+                                    <Image src={ CSharpImage } className="d-block" alt="..." />
                                 </div>
                             </div>
                         </div>

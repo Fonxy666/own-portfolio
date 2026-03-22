@@ -39,16 +39,13 @@ const AboutMe = () => {
                 After discussions with a developer friend who recognized my open-minded and agile mindset, I enrolled in the Codecool Full-Stack Developer course online in February 2023.
             </GreenP>
             <GreenP>
-                I am communicative, open-minded, and agile, and I stay active through daily exercise.
+                I am communicative, open-minded, agile, and I stay active through daily exercise.
             </GreenP>
             <GreenP>
                 While I enjoy gaming, I'm spending most of my time continuously deepening my knowledge, learning new frameworks and exploring programming concepts to grow as a developer.
             </GreenP>
             <GreenP>
-                At Codecool, I learned multiple programming languages and best practices for teamwork and development. I built several projects both independently and in teams.
-            </GreenP>
-            <GreenP>
-                My proudest project is my full-featured chat application, which demonstrates my ability to implement complex functionality and maintain clean code.
+                Currently I'm working at MBH Bank as a Fullstack Developer, bulding scalable applications with NestJS, PostgreSQL, Kafka, and containerized with Kubernetes and Docker. 
             </GreenP>
             <H5>
                 Some of the developers opinion:
