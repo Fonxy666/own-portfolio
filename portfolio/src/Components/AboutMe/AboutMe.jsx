@@ -27,7 +27,7 @@ const AboutMe = () => {
                 Introduction:
             </H5>
             <GreenP>
-                My name is Viktor Poszt, I'm 30, and I currently live in Kirchbichl, Austria.
+                My name is Viktor Poszt, I'm 31, and I currently live in Szeged, Hungary.
             </GreenP>
             <GreenP>
                 From a young age, I was fascinated by computers - how software can solve problems, create applications, and even assist in healthcare through robotics.
@@ -42,7 +42,7 @@ const AboutMe = () => {
                 I am communicative, open-minded, and agile, and I stay active through daily exercise.
             </GreenP>
             <GreenP>
-                While I enjoy gaming, I spend most of my time learning new frameworks and exploring programming concepts to grow as a developer.
+                While I enjoy gaming, I'm spending most of my time continuously deepening my knowledge, learning new frameworks and exploring programming concepts to grow as a developer.
             </GreenP>
             <GreenP>
                 At Codecool, I learned multiple programming languages and best practices for teamwork and development. I built several projects both independently and in teams.
@@ -94,9 +94,9 @@ const AboutMe = () => {
                         <div className="accordion-body">
                             <li>HTML/CSS: ★★★★☆</li>
                             <li>Javascript: ★★★★☆</li>
+                            <li>TypeScript: ★★★★☆</li>
                             <li>Angular: ★★★★☆</li>
                             <li>React: ★★★☆☆</li>
-                            <li>TypeScript: ★★★★☆</li>
                         </div>
                     </div>
                 </StyledAccordionItem>
@@ -108,28 +108,28 @@ const AboutMe = () => {
                     </h2>
                     <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                         <div className="accordion-body">
-                            <li>Node.js: ★★★★☆</li>
-                            <li>Express.Js: ★★★★☆</li>
                             <li>C#: ★★★★★</li>
                             <li>.NET: ★★★★★</li>
                             <li>REST API: ★★★★★</li>
-                            <li>Python: ★★☆☆☆</li>
+                            <li>Express.Js: ★★★★☆</li>
+                            <li>NestJs: ★★★★☆</li>
                             <li>WebSocket/SignalR: ★★★★☆</li>
+                            <li>GraphQL: ★★★☆☆</li>
+                            <li>Python: ★★☆☆☆</li>
                         </div>
                     </div>
                 </StyledAccordionItem>
                 <StyledAccordionItem className="accordion-item">
                     <h2 className="accordion-header" id="panelsStayOpen-headingThree">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            Database languages
+                            Database Management Systems
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                         <div className="accordion-body">
-                            <li>MongoDB: ★★★☆☆</li>
                             <li>PostgreSQL: ★★★★☆</li>
                             <li>MSSQL: ★★★★☆</li>
-                            <li>MySQL: ★★★☆☆</li>
+                            <li>MongoDB: ★★★☆☆</li>
                             <li>DB optimization: ★★★☆☆</li>
                         </div>
                     </div>
@@ -145,6 +145,7 @@ const AboutMe = () => {
                             <li>Docker: ★★★★☆</li>
                             <li>CI/CD: ★★★☆☆</li>
                             <li>Github Actions: ★★★☆☆</li>
+                            <li>Kubernetes: ★★★☆☆</li>
                             <li>AWS: ★★☆☆☆</li>
                         </div>
                     </div>
@@ -158,7 +159,7 @@ const AboutMe = () => {
                     <div id="panelsStayOpen-collapseFive" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
                         <div className="accordion-body">
                             <li>Git: ★★★★★</li>
-                            <li>Testing(xUnit, nUnit): ★★★★☆</li>
+                            <li>Testing(xUnit, nUnit, Jest, Cucumber): ★★★★☆</li>
                             <li>Agile: ★★★★☆</li>
                         </div>
                     </div>
