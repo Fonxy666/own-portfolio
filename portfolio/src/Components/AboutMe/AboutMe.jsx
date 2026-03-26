@@ -45,7 +45,7 @@ const AboutMe = () => {
                 While I enjoy gaming, I'm spending most of my time continuously deepening my knowledge, learning new frameworks and exploring programming concepts to grow as a developer.
             </GreenP>
             <GreenP>
-                Currently I'm working at MBH Bank as a Fullstack Developer, bulding scalable applications with NestJS, PostgreSQL, Kafka, and containerized with Kubernetes and Docker. 
+                Currently I'm working at MBH Bank as a Fullstack Developer, building scalable applications with NestJS, PostgreSQL, Kafka, and containerized with Kubernetes and Docker. 
             </GreenP>
             <H5>
                 Some of the developers opinion:
